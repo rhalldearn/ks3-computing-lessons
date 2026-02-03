@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nbdev-hello"
+dynamic = ["version"]
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "rdh", email = "root@codecutter.io"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/rhalldearn/nbdev-hello"
+Documentation = "https://rhalldearn.github.io/nbdev-hello/"
+
+[project.entry-points.nbdev]
+nbdev_hello = "nbdev_hello._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "nbdev_hello.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["nbdev_hello"]
+
+[tool.nbdev]

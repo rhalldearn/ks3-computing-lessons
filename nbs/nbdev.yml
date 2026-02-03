@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-hello"
+  site-url: "https://rhalldearn.github.io/nbdev-hello"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/rhalldearn/nbdev-hello"
