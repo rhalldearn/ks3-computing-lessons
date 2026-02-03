@@ -13,7 +13,7 @@ through fun, interactive activities!
 
 ## Available Lessons
 
-### 🔐 [Encryption vs Hashing](01_encryption_vs_hashing.html)
+### 🔐 [010 Encryption vs Hashing](010_encryption_vs_hashing.html)
 
 Learn the difference between encryption (lock & unlock) and hashing
 (lock only). Understand why both are important for keeping your data
@@ -25,7 +25,7 @@ real-world examples of both
 
 ------------------------------------------------------------------------
 
-### 📖 [Practical: Book Cipher Encryption](02_practical_simple_book_key_encryption.html)
+### 📖 [011 Practical: Book Cipher Encryption](011_practical_book_cipher_encryption.html)
 
 Try encryption yourself using a book cipher! Send secret messages to
 your classmates that only they can decode.
@@ -36,7 +36,7 @@ why keys are important
 
 ------------------------------------------------------------------------
 
-### 🔒 [Practical: Password Hashing](03_password_hashing.html)
+### 🔒 [012 Practical: Password Hashing](012_practical_password_hashing.html)
 
 Discover how websites protect your passwords using one-way hashing. Use
 Python to see hashing in action!
@@ -47,7 +47,7 @@ different hashes - How this protects you from hackers
 
 ------------------------------------------------------------------------
 
-### 🔐 [Practical: Encryption](04_encryption.html)
+### 🔐 [013 Practical: Encryption](013_practical_encryption.html)
 
 Learn how encryption works using a Caesar cipher in Python! Discover how
 keys work and why encryption is different from hashing.
@@ -60,7 +60,7 @@ encryption protecting your data
 ## Getting Started
 
 1.  **Start with the theory**: Read [Encryption vs
-    Hashing](01_encryption_vs_hashing.html) first
+    Hashing](010_encryption_vs_hashing.html) first
 2.  **Try the practicals**: Work through the hands-on activities
 3.  **Discuss**: Use the discussion questions to explore the concepts
     deeper
