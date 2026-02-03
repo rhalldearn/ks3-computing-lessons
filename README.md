@@ -21,7 +21,7 @@ $ pip install -e .
 # ...
 
 # compile to have changes apply to nbdev_hello
-$ nbdev_prepare
+$ nbdev-prepare
 ```
 
 ## Usage
