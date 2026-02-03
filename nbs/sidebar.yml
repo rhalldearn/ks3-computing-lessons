@@ -2,7 +2,6 @@ website:
   sidebar:
     contents:
       - index.ipynb
-      - 00_core.ipynb
       - 01_encryption_vs_hashing.ipynb
       - 02_practical_simple_book_key_encryption.ipynb
-      - contents.ipynb
+      - 03_password_hashing.ipynb
