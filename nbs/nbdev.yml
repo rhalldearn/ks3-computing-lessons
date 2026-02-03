@@ -2,7 +2,7 @@ project:
   output-dir: _docs
 
 website:
-  title: "KS3 Computing Lessons"
+  title: "ks3-computing-lessons"
   site-url: "https://rhalldearn.github.io/ks3-computing-lessons"
   description: ""
   repo-branch: main
