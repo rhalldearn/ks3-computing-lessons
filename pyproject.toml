@@ -31,3 +31,9 @@ version = {attr = "nbdev_hello.__version__"}
 include = ["nbdev_hello"]
 
 [tool.nbdev]
+lib_name = "nbdev_hello"
+lib_path = "nbdev_hello"
+nbs_path = "nbs"
+doc_path = "_docs"
+repo = "rhalldearn/nbdev-hello"
+recursive = true
