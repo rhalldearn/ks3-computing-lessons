@@ -22,17 +22,17 @@ Repository = "https://github.com/rhalldearn/ks3-computing-lessons"
 Documentation = "https://rhalldearn.github.io/ks3-computing-lessons/"
 
 [project.entry-points.nbdev]
-nbdev_hello = "nbdev_hello._modidx:d"
+ks3-computing-lessons = "ks3-computing-lessons._modidx:d"
 
 [tool.setuptools.dynamic]
-version = {attr = "nbdev_hello.__version__"}
+version = {attr = "ks3-computing-lessons.__version__"}
 
 [tool.setuptools.packages.find]
-include = ["nbdev_hello"]
+include = ["ks3-computing-lessons"]
 
 [tool.nbdev]
-lib_name = "nbdev_hello"
-lib_path = "nbdev_hello"
+lib_name = "ks3-computing-lessons"
+lib_path = "ks3-computing-lessons"
 nbs_path = "nbs"
 doc_path = "_docs"
 repo = "rhalldearn/ks3-computing-lessons"
