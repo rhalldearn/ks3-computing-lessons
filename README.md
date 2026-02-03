@@ -45,6 +45,18 @@ Python to see hashing in action!
 How hashing is a one-way process - Why tiny changes create completely
 different hashes - How this protects you from hackers
 
+------------------------------------------------------------------------
+
+### 🔐 [Practical: Encryption](04_encryption.html)
+
+Learn how encryption works using a Caesar cipher in Python! Discover how
+keys work and why encryption is different from hashing.
+
+**What you’ll learn:** - How to encrypt and decrypt messages using a
+key - Why encryption is a two-way process (unlike hashing) - How keys
+protect your messages from eavesdroppers - Real-world examples of
+encryption protecting your data
+
 ## Getting Started
 
 1.  **Start with the theory**: Read [Encryption vs
