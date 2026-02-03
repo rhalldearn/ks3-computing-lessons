@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is an **nbdev project** - a literate programming framework where code is written in Jupyter notebooks (`.ipynb` files in `nbs/`) and automatically exported to Python modules. The notebooks serve as both source code and documentation.
+This is an **nbdev 3 project** - a literate programming framework where code is written in Jupyter notebooks (`.ipynb` files in `nbs/`) and automatically exported to Python modules. The notebooks serve as both source code and documentation.
+
+This project uses **nbdev 3**, which configures projects via `pyproject.toml` with a `[tool.nbdev]` section (nbdev 2 used `settings.ini`).
 
 **Critical workflow principle**: Never edit Python files in `nbdev_hello/` directly. These are auto-generated from notebooks and will be overwritten. Always edit the source notebooks in `nbs/` instead.
 
@@ -85,7 +87,17 @@ nbdev_test --path nbs/00_core.ipynb  # Test a single notebook
 
 ## CI/CD
 
-- `.github/workflows/test.yaml` - Runs nbdev-ci on all PRs and pushes
+- `.github/workflows/test.yaml` - Runs nbdev3-ci action on all PRs and pushes
 - `.github/workflows/deploy.yaml` - Deploys documentation to GitHub Pages on main branch
 
 The CI workflow runs `nbdev_prepare` and checks that all generated files are up to date.
+
+## Configuration
+
+nbdev 3 configuration is in `pyproject.toml` under the `[tool.nbdev]` section:
+- `lib_name` - Package name
+- `lib_path` - Path to Python package directory
+- `nbs_path` - Path to notebooks directory
+- `doc_path` - Path for generated documentation
+- `repo` - GitHub repository (format: "username/repo")
+- `recursive` - Whether to recursively search for notebooks
