@@ -19,7 +19,7 @@ This project uses **nbdev 3**, which configures projects via `pyproject.toml` wi
   - `00_core.ipynb` - Generates `nbdev_hello/core.py`
   - Additional notebooks follow `XX_module.ipynb` pattern
 
-- **`nbdev_hello/` directory**: Auto-generated Python package
+- **`ks3-computing-lessons/` directory**: Auto-generated Python package
   - `core.py` - Exported from `00_core.ipynb` (DO NOT EDIT)
   - `_modidx.py` - Auto-generated module index (DO NOT EDIT)
   - `__init__.py` - Auto-generated package initialization (DO NOT EDIT)
