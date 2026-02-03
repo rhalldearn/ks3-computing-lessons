@@ -21,9 +21,6 @@ dependencies = []
 Repository = "https://github.com/rhalldearn/ks3-computing-lessons"
 Documentation = "https://rhalldearn.github.io/ks3-computing-lessons/"
 
-[project.entry-points.nbdev]
-ks3-computing-lessons = "ks3-computing-lessons._modidx:d"
-
 [tool.setuptools.dynamic]
 version = {attr = "ks3-computing-lessons.__version__"}
 
