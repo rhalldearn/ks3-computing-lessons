@@ -1,0 +1,322 @@
+[
+  {
+    "objectID": "book_cipher_encryption.html",
+    "href": "book_cipher_encryption.html",
+    "title": "Book Cipher Encryption 🔐",
+    "section": "",
+    "text": "Paper and pen\n\nSample text below (the Key)\n\n\n\n\nPage 1:\n\n\n\nLine Number\nText\n\n\n\n\n1\nAlice went to the market to buy some apples.\n\n\n2\nBob stayed home and read a book about coding.\n\n\n3\nThey agreed to meet at the park after school.\n\n\n4\nSecret messages should never be sent in plain sight.\n\n\n5\nAlways practice encryption to keep messages safe.",
+    "crumbs": [
+      "Book Cipher Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "book_cipher_encryption.html#materials",
+    "href": "book_cipher_encryption.html#materials",
+    "title": "Book Cipher Encryption 🔐",
+    "section": "",
+    "text": "Paper and pen\n\nSample text below (the Key)\n\n\n\n\nPage 1:\n\n\n\nLine Number\nText\n\n\n\n\n1\nAlice went to the market to buy some apples.\n\n\n2\nBob stayed home and read a book about coding.\n\n\n3\nThey agreed to meet at the park after school.\n\n\n4\nSecret messages should never be sent in plain sight.\n\n\n5\nAlways practice encryption to keep messages safe.",
+    "crumbs": [
+      "Book Cipher Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "book_cipher_encryption.html#process-encrypt---send---decrypt",
+    "href": "book_cipher_encryption.html#process-encrypt---send---decrypt",
+    "title": "Book Cipher Encryption 🔐",
+    "section": "Process: Encrypt -> Send -> Decrypt",
+    "text": "Process: Encrypt -&gt; Send -&gt; Decrypt\n\nStep 1: Agree which key to use (only needs to be done once or when changing the key)\nFor our key, we are using the sample text above.\nRules:\n- Use page number, line number, word number to reference a word.\n\nExample: Page 1, Line 1, Word 1 → “Alice”\n\n\n\nSample Text (Use for encryption/decryption)\nPage 1:\n\n\n\nLine Number\nText\n\n\n\n\n1\nAlice went to the market to buy some apples.\n\n\n2\nBob stayed home and read a book about coding.\n\n\n3\nThey agreed to meet at the park after school.\n\n\n4\nSecret messages should never be sent in plain sight.\n\n\n5\nAlways practice encryption to keep messages safe.\n\n\n\n\n\n\nStep 2: Encrypt a message\n\nWrite a short message (3–5 words) using words found in the sample text.\n\nFor each word, write down the page–line–word numbers instead of the word.\n\nExample Message:\nAlice meets Bob\nEncryption using the sample text:\n- Alice → 1-1-1\n- meets → 1-3-4 (“meet”)\n- Bob → 1-2-1\nEncrypted message:\n1-1-1 / 1-3-4 / 1-2-1\n\nEveryone should use the same sample text so messages can be swapped and decrypted in class.\n\n\n\n\nSample Text (Use for encryption/decryption)\nPage 1:\n\n\n\nLine Number\nText\n\n\n\n\n1\nAlice went to the market to buy some apples.\n\n\n2\nBob stayed home and read a book about coding.\n\n\n3\nThey agreed to meet at the park after school.\n\n\n4\nSecret messages should never be sent in plain sight.\n\n\n5\nAlways practice encryption to keep messages safe.\n\n\n\n\n\nSend the encrypted message\nSwap encrypted messages with a partner.\n\n\n\nStep 3: Decrypt the message\n\nUse the same key (sample text) to decode.\n\nRead the decrypted message.\n\n\n\n\nStep 4: Discussion\n\nWhy is the sample text called the key?\n\nWhat happens if you don’t have the correct key?\n\nHow is this different from a hash? (once you have completed the lesson on hashing!)\n\n\n\n\nOptional Stretch\n\nCreate your own short “Alice & Bob” message for a partner to encrypt and decrypt.\n\nChange the book lines or words — what happens if the key is different?\n\nCompare to hashing: why could this not be reversed in the same way? (once you have completed the lesson on hashing!)",
+    "crumbs": [
+      "Book Cipher Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "KS3 Computing Lessons",
+    "section": "",
+    "text": "This site contains hands-on computing lessons designed for Key Stage 3 students (ages 11-14).\nLearn about how encryption and hashing keep your data safe online through fun, interactive activities!",
+    "crumbs": [
+      "KS3 Computing Lessons"
+    ]
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "KS3 Computing Lessons",
+    "section": "",
+    "text": "This site contains hands-on computing lessons designed for Key Stage 3 students (ages 11-14).\nLearn about how encryption and hashing keep your data safe online through fun, interactive activities!",
+    "crumbs": [
+      "KS3 Computing Lessons"
+    ]
+  },
+  {
+    "objectID": "index.html#available-lessons",
+    "href": "index.html#available-lessons",
+    "title": "KS3 Computing Lessons",
+    "section": "Available Lessons",
+    "text": "Available Lessons\n\n🔐 Encryption vs Hashing\nLearn the difference between encryption (lock & unlock) and hashing (lock only). Understand why both are important for keeping your data safe.\nLearning objectives: - Explain the difference between encryption and hashing - Describe when each should be used to protect data - Give real-world examples of both\n\n\n\n📖 Book Cipher Encryption\nTry encryption yourself using a book cipher! Send secret messages to your classmates that only they can decode.\nWhat you’ll do: - Encrypt messages using a shared “key” (a book) - Swap encrypted messages with partners - Decrypt messages and discover why keys are important\n\n\n\n🔒 Password Hashing\nDiscover how websites protect your passwords using one-way hashing. Use Python to see hashing in action!\nWhat you’ll learn: - Why websites never store your real password - How hashing is a one-way process - Why tiny changes create completely different hashes - How this protects you from hackers\n\n\n\n🔐 Encryption\nLearn how encryption works using a Caesar cipher in Python! Discover how keys work and why encryption is different from hashing.\nWhat you’ll learn: - How to encrypt and decrypt messages using a key - Why encryption is a two-way process (unlike hashing) - How keys protect your messages from eavesdroppers - Real-world examples of encryption protecting your data",
+    "crumbs": [
+      "KS3 Computing Lessons"
+    ]
+  },
+  {
+    "objectID": "index.html#getting-started",
+    "href": "index.html#getting-started",
+    "title": "KS3 Computing Lessons",
+    "section": "Getting Started",
+    "text": "Getting Started\n\nStart with the theory: Read Encryption vs Hashing first\nTry the practicals: Work through the hands-on activities\nDiscuss: Use the discussion questions to explore the concepts deeper\nChallenge yourself: Try the optional stretch activities",
+    "crumbs": [
+      "KS3 Computing Lessons"
+    ]
+  },
+  {
+    "objectID": "index.html#why-is-this-important",
+    "href": "index.html#why-is-this-important",
+    "title": "KS3 Computing Lessons",
+    "section": "Why is this important?",
+    "text": "Why is this important?\nEvery day you use encryption and hashing without realizing it:\n\n🌐 HTTPS websites use encryption to protect your browsing\n🔐 Password logins use hashing to keep accounts secure\n💬 Messaging apps use encryption for private conversations\n💳 Online shopping uses encryption to protect payment details\n\nUnderstanding these concepts helps you: - Stay safe online - Make better security decisions - Understand how technology protects your privacy - Build a foundation for cybersecurity careers\n\nReady to start learning? Click on any lesson above to begin! 🚀",
+    "crumbs": [
+      "KS3 Computing Lessons"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html",
+    "href": "password_hashing.html",
+    "title": "Password Hashing 🔒",
+    "section": "",
+    "text": "Alice and Bob get passwords stolen by a Hacker",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#tldr-too-long-didnt-read",
+    "href": "password_hashing.html#tldr-too-long-didnt-read",
+    "title": "Password Hashing 🔒",
+    "section": "TLDR; (too long didn’t read)",
+    "text": "TLDR; (too long didn’t read)\nHashing = scrambling passwords so NO ONE can read them! 🔒\n\nHashing is one-way only - you can’t reverse it\nSame password = same hash every time\nEven the website owner can’t see your real password!\nThis protects you if hackers steal the database",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#background-information",
+    "href": "password_hashing.html#background-information",
+    "title": "Password Hashing 🔒",
+    "section": "Background Information",
+    "text": "Background Information\nWhen you create an account on a website, you choose a password. But did you know that good websites never store your actual password?\nInstead, they use a special mathematical process called hashing to scramble it into a unique code. This code: - Always looks like random letters and numbers - Can’t be reversed back to your password - Changes completely if even one character in your password changes\n\nWhy is this important?\nImagine a hacker breaks into a website’s database: - Bad website (stores passwords): Hacker sees “password123” and can log into your account! - Good website (stores hashes): Hacker sees “ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f” - useless to them!\n\n\nHow does login still work?\nWhen you log in, the website: 1. Takes your password 2. Hashes it the same way 3. Compares the hash to the one they stored 4. If they match - you’re in! ✅",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#practical-activity-password-hashing-detective",
+    "href": "password_hashing.html#practical-activity-password-hashing-detective",
+    "title": "Password Hashing 🔒",
+    "section": "Practical Activity: Password Hashing Detective 🔍",
+    "text": "Practical Activity: Password Hashing Detective 🔍\n\nObjective\nExplore how password hashing works using Python and discover why it’s a one-way process.\n\n\nYou will need\n\nA computer with Python installed\nThe Python code below\nPaper and pen to record your findings",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#step-1-set-up-your-password-hasher",
+    "href": "password_hashing.html#step-1-set-up-your-password-hasher",
+    "title": "Password Hashing 🔒",
+    "section": "Step 1: Set up your password hasher",
+    "text": "Step 1: Set up your password hasher\nRun this Python code to create your password hashing tool:\n\n\nCode\nimport hashlib\n\ndef hash_password(password):\n    \"\"\"Hash a password using SHA-256\"\"\"\n    # Convert password to bytes and hash it\n    hashed = hashlib.sha256(password.encode()).hexdigest()\n    return hashed\n\n# Test it out!\ntest_password = \"dragon\"\nhashed_result = hash_password(test_password)\n\nprint(f\"Password: {test_password}\")\nprint(f\"Hash:     {hashed_result}\")\nprint(f\"\\nHash length: {len(hashed_result)} characters\")\n\n\nPassword: dragon\nHash:     a9c43be948c5cabd56ef2bacffb77cdaa5eec49dd5eb0cc4129cf3eda5f0e74c\n\nHash length: 64 characters",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#step-2-experiment-with-different-passwords",
+    "href": "password_hashing.html#step-2-experiment-with-different-passwords",
+    "title": "Password Hashing 🔒",
+    "section": "Step 2: Experiment with different passwords",
+    "text": "Step 2: Experiment with different passwords\nTry hashing different passwords and observe the results:\n\n\nCode\n# Try these passwords\npasswords = [\"password\", \"password123\", \"Password123\", \"letmein\", \"qwerty\"]\n\nprint(\"PASSWORD HASHING RESULTS\")\nprint(\"=\" * 80)\n\nfor pwd in passwords:\n    hashed = hash_password(pwd)\n    print(f\"{pwd:15} → {hashed}\")\n\n\nPASSWORD HASHING RESULTS\n================================================================================\npassword        → 5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8\npassword123     → ef92b778bafe771e89245b89ecbc08a44a4e166c06659911881f383d4473e94f\nPassword123     → 008c70392e3abfbd0fa47bbc2ed96aa99bd49e159727fcba0f2e6abeb3a9d601\nletmein         → 1c8bfe8f801d79745c4631d09fff36c82aa37fc4cce4fc946683d7b336b63032\nqwerty          → 65e84be33532fb784c48129675f9eff3a682b27168c0ea744b2cf58ee02337c5",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#step-3-investigate-the-one-way-property",
+    "href": "password_hashing.html#step-3-investigate-the-one-way-property",
+    "title": "Password Hashing 🔒",
+    "section": "Step 3: Investigate the one-way property",
+    "text": "Step 3: Investigate the one-way property\nNow try to answer these investigation questions by experimenting:\n\n\nCode\n# Investigation 1: What happens with very similar passwords?\nprint(\"INVESTIGATION 1: Tiny changes = huge differences\")\nprint(\"=\" * 80)\n\nsimilar_passwords = [\"cat\", \"Cat\", \"cats\", \"cat1\"]\n\nfor pwd in similar_passwords:\n    hashed = hash_password(pwd)\n    print(f\"{pwd:10} → {hashed}\")\n\nprint(\"\\nNotice: Even changing ONE character completely changes the hash!\")\n\n\nINVESTIGATION 1: Tiny changes = huge differences\n================================================================================\ncat        → 77af778b51abd4a3c51c5ddd97204a9c3ae614ebccb75a606c3b6865aed6744e\nCat        → 48735c4fae42d1501164976afec76730b9e5fe467f680bdd8daff4bb77674045\ncats       → d936608baaacc6b762c14b0c356026fba3b84e77d5b22e86f2fc29d3da09c675\ncat1       → 081706ccee3f19f01752ba7b60dec0f901a746fe4e3f8c00b70ee6671669c802\n\nNotice: Even changing ONE character completely changes the hash!\n\n\n\n\nCode\n# Investigation 2: Is it consistent?\nprint(\"\\nINVESTIGATION 2: Same password = same hash?\")\nprint(\"=\" * 80)\n\npassword = \"elephant\"\nprint(f\"Hashing '{password}' five times:\\n\")\n\nfor i in range(1, 6):\n    hashed = hash_password(password)\n    print(f\"  {i}. {hashed}\")\n\nprint(\"\\nNotice: The same password ALWAYS produces the same hash!\")\n\n\n\nINVESTIGATION 2: Same password = same hash?\n================================================================================\nHashing 'elephant' five times:\n\n  1. cd08c4c4316df20d9c30450fe776dcde4810029e641cde526c5bbffec1f770a3\n  2. cd08c4c4316df20d9c30450fe776dcde4810029e641cde526c5bbffec1f770a3\n  3. cd08c4c4316df20d9c30450fe776dcde4810029e641cde526c5bbffec1f770a3\n  4. cd08c4c4316df20d9c30450fe776dcde4810029e641cde526c5bbffec1f770a3\n  5. cd08c4c4316df20d9c30450fe776dcde4810029e641cde526c5bbffec1f770a3\n\nNotice: The same password ALWAYS produces the same hash!\n\n\n\n\nCode\n# Investigation 3: Can we reverse it?\nprint(\"\\nINVESTIGATION 3: Can we go backwards?\")\nprint(\"=\" * 80)\n\noriginal = \"secret\"\nhashed = hash_password(original)\n\nprint(f\"Original password: {original}\")\nprint(f\"Hashed version:    {hashed}\")\nprint(f\"\\n❌ There is NO way to reverse this hash back to '{original}'\")\nprint(\"   Even the website owner cannot see your original password!\")\n\n\n\nINVESTIGATION 3: Can we go backwards?\n================================================================================\nOriginal password: secret\nHashed version:    2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b\n\n❌ There is NO way to reverse this hash back to 'secret'\n   Even the website owner cannot see your original password!",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#step-4-test-your-own-passwords",
+    "href": "password_hashing.html#step-4-test-your-own-passwords",
+    "title": "Password Hashing 🔒",
+    "section": "Step 4: Test your own passwords!",
+    "text": "Step 4: Test your own passwords!\nImportant Safety Note: Don’t use your real passwords for practice! Make up fake ones instead.\n\n\nCode\n# Try your own passwords (use FAKE passwords only!)\nprint(\"HASH YOUR OWN PASSWORDS\")\nprint(\"=\" * 80)\n\n# Replace these with your own test passwords\nmy_passwords = [\n    \"your_test_password_1\",\n    \"your_test_password_2\",\n    \"your_test_password_3\"\n]\n\nfor pwd in my_passwords:\n    hashed = hash_password(pwd)\n    print(f\"{pwd:25} → {hashed}\")",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#discussion-questions",
+    "href": "password_hashing.html#discussion-questions",
+    "title": "Password Hashing 🔒",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\nAfter completing the investigations, discuss these questions:\n\nOne-way process: Why is it impossible to reverse a hash back to the original password?\nSecurity: If hackers steal a database of hashed passwords, why can’t they use them to log in?\nConsistency: Why is it important that the same password always produces the same hash?\nSmall changes: What did you notice when you changed just one character in a password? Why is this important?\nReal world: Can you think of other situations where one-way hashing might be useful?",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#key-takeaways",
+    "href": "password_hashing.html#key-takeaways",
+    "title": "Password Hashing 🔒",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n✅ Hashing is one-way - You can’t reverse it\n✅ Consistency matters - Same input = same output (every time)\n✅ Tiny changes = huge differences - Changing one character completely changes the hash\n✅ Protects your privacy - Even website owners can’t see your real password\n✅ Security through mathematics - Hashing uses complex math that’s easy one way, impossible the other",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "password_hashing.html#optional-stretch-activities",
+    "href": "password_hashing.html#optional-stretch-activities",
+    "title": "Password Hashing 🔒",
+    "section": "Optional Stretch Activities 🌟",
+    "text": "Optional Stretch Activities 🌟\n\nChallenge 1: Password strength explorer\nHash passwords of different lengths. Does a longer password create a longer hash?\n\n\nChallenge 2: Hash comparison\nIf someone gives you a hash, can you figure out what their password was by trying common passwords? (This is called a “brute force attack”)\n\n\nChallenge 3: Encryption vs Hashing\nCompare hashing to the encryption lesson you learned earlier: - Which one can be reversed? - When would you use each one? - Why are both important for security?\n\n\nChallenge 4: Research task\nLook up “salt” in password hashing. Why do security experts add salt to passwords before hashing them?",
+    "crumbs": [
+      "Password Hashing 🔒"
+    ]
+  },
+  {
+    "objectID": "encryption.html",
+    "href": "encryption.html",
+    "title": "Encryption 🔐",
+    "section": "",
+    "text": "Alice and Bob want to share messages privately but Eve the evesdropper wants to read them",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#tldr-too-long-didnt-read",
+    "href": "encryption.html#tldr-too-long-didnt-read",
+    "title": "Encryption 🔐",
+    "section": "TLDR; (too long didn’t read)",
+    "text": "TLDR; (too long didn’t read)\nEncryption = lock & unlock with a key! 🔐\n\nEncryption can be reversed - you can decrypt messages back to the original\nYou need a key to encrypt AND decrypt\nWithout the key, encrypted messages look like gibberish\nThis protects messages while they’re being sent (like emails or texts)\nDifferent from hashing: encryption is two-way, hashing is one-way only",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#background-information",
+    "href": "encryption.html#background-information",
+    "title": "Encryption 🔐",
+    "section": "Background Information",
+    "text": "Background Information\nRemember Alice and Bob from the book cipher? They want to send secret messages to each other, but Eve (the eavesdropper) is trying to read them!\nEncryption is like putting your message in a locked box. Only someone with the right key can unlock it and read the message.\n\nHow does encryption work?\n\nEncrypt: Take your original message (called “plaintext”) and scramble it using a key\nSend: Send the scrambled message (called “ciphertext”) - even if Eve intercepts it, she can’t read it!\nDecrypt: The receiver uses the same key to unscramble the message back to plaintext\n\n\n\nWhy is this important?\nEvery day, encryption protects your data: - 🔒 HTTPS websites encrypt your browsing so hackers can’t see what you’re doing - 💬 Messaging apps encrypt your messages so only you and the recipient can read them - 💳 Online shopping encrypts your payment details so they can’t be stolen - 📧 Email can be encrypted to keep your private conversations safe\n\n\nEncryption vs Hashing\n\n\n\n\n\n\n\n\nFeature\nEncryption 🔐\nHashing 🔒\n\n\n\n\nCan it be reversed?\n✅ Yes (with the key)\n❌ No (one-way only)\n\n\nWhat’s it used for?\nProtecting data in transit\nProtecting stored passwords\n\n\nDo you need a key?\n✅ Yes (to encrypt AND decrypt)\n❌ No (just hash it)\n\n\nExample\nEncrypted email message\nHashed password in database\n\n\n\nBoth are important for security, but they solve different problems!",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#practical-activity-caesar-cipher-encryption",
+    "href": "encryption.html#practical-activity-caesar-cipher-encryption",
+    "title": "Encryption 🔐",
+    "section": "Practical Activity: Caesar Cipher Encryption 🔐",
+    "text": "Practical Activity: Caesar Cipher Encryption 🔐\n\nObjective\nLearn how encryption works by creating your own Caesar cipher in Python. Discover how keys work and why encryption can be reversed (unlike hashing).\n\n\nYou will need\n\nA computer with Python installed\nThe Python code below\nPaper and pen to record your findings\n\n\n\nWhat is a Caesar Cipher?\nThe Caesar cipher is one of the oldest encryption methods! It was used by Julius Caesar over 2000 years ago. It works by “shifting” each letter in the alphabet by a certain number of positions.\nExample with shift of 3: - A → D (A is the 1st letter, shift 3 → D is the 4th letter) - B → E - C → F - … - X → A (wraps around to the beginning) - Y → B - Z → C\nThe shift number is the key!",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#step-1-set-up-your-encryption-tool",
+    "href": "encryption.html#step-1-set-up-your-encryption-tool",
+    "title": "Encryption 🔐",
+    "section": "Step 1: Set up your encryption tool",
+    "text": "Step 1: Set up your encryption tool\nRun this Python code to create your Caesar cipher encryption and decryption tool:\n\n\nCode\ndef caesar_encrypt(message, shift):\n    \"\"\"Encrypt a message using Caesar cipher with a given shift (key)\"\"\"\n    encrypted = \"\"\n    \n    for char in message:\n        if char.isalpha():  # Only shift letters, not spaces or punctuation\n            # Determine if it's uppercase or lowercase\n            if char.isupper():\n                # Shift uppercase letters\n                shifted = chr((ord(char) - ord('A') + shift) % 26 + ord('A'))\n            else:\n                # Shift lowercase letters\n                shifted = chr((ord(char) - ord('a') + shift) % 26 + ord('a'))\n            encrypted += shifted\n        else:\n            # Keep spaces, punctuation, and numbers as they are\n            encrypted += char\n    \n    return encrypted\n\n\ndef caesar_decrypt(encrypted_message, shift):\n    \"\"\"Decrypt a message using Caesar cipher with a given shift (key)\"\"\"\n    # Decrypting is just encrypting with the opposite shift!\n    return caesar_encrypt(encrypted_message, -shift)\n\n\n# Test it out!\noriginal_message = \"Hello Alice\"\nkey = 3  # The shift/key\n\nencrypted = caesar_encrypt(original_message, key)\ndecrypted = caesar_decrypt(encrypted, key)\n\nprint(f\"Original message: {original_message}\")\nprint(f\"Key (shift):      {key}\")\nprint(f\"Encrypted:        {encrypted}\")\nprint(f\"Decrypted:        {decrypted}\")\nprint(f\"\\n✅ Success! Encryption and decryption work!\")\n\n\nOriginal message: Hello Alice\nKey (shift):      3\nEncrypted:        Khoor Dolfh\nDecrypted:        Hello Alice\n\n✅ Success! Encryption and decryption work!",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#step-2-send-secret-messages",
+    "href": "encryption.html#step-2-send-secret-messages",
+    "title": "Encryption 🔐",
+    "section": "Step 2: Send secret messages!",
+    "text": "Step 2: Send secret messages!\nNow you can encrypt messages and send them to a partner. Try encrypting different messages:\n\n\nCode\n# Try encrypting these messages\nmessages = [\n    \"Meet me at the park\",\n    \"The password is secret\",\n    \"Happy birthday Alice\"\n]\n\nkey = 5  # You and your partner must agree on the same key!\n\nprint(\"ENCRYPTING MESSAGES\")\nprint(\"=\" * 80)\n\nfor message in messages:\n    encrypted = caesar_encrypt(message, key)\n    print(f\"Original:  {message}\")\n    print(f\"Encrypted: {encrypted}\")\n    print()\n\n\nENCRYPTING MESSAGES\n================================================================================\nOriginal:  Meet me at the park\nEncrypted: Rjjy rj fy ymj ufwp\n\nOriginal:  The password is secret\nEncrypted: Ymj ufxxbtwi nx xjhwjy\n\nOriginal:  Happy birthday Alice\nEncrypted: Mfuud gnwymifd Fqnhj",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#step-3-decrypt-messages-from-your-partner",
+    "href": "encryption.html#step-3-decrypt-messages-from-your-partner",
+    "title": "Encryption 🔐",
+    "section": "Step 3: Decrypt messages from your partner",
+    "text": "Step 3: Decrypt messages from your partner\nIf your partner sends you an encrypted message, you can decrypt it using the same key:\n\n\nCode\n# Your partner sends you this encrypted message\nencrypted_from_partner = \"Mjqqt rj fy ymj ufwp\"  # What does this say?\nshared_key = 5  # You both agreed on this key\n\ndecrypted = caesar_decrypt(encrypted_from_partner, shared_key)\n\nprint(\"DECRYPTING A MESSAGE\")\nprint(\"=\" * 80)\nprint(f\"Encrypted message: {encrypted_from_partner}\")\nprint(f\"Key:                {shared_key}\")\nprint(f\"Decrypted message: {decrypted}\")\nprint(\"\\n✅ You can read the secret message!\")\n\n\nDECRYPTING A MESSAGE\n================================================================================\nEncrypted message: Mjqqt rj fy ymj ufwp\nKey:                5\nDecrypted message: Hello me at the park\n\n✅ You can read the secret message!",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#step-4-investigate-encryption-properties",
+    "href": "encryption.html#step-4-investigate-encryption-properties",
+    "title": "Encryption 🔐",
+    "section": "Step 4: Investigate encryption properties",
+    "text": "Step 4: Investigate encryption properties\nNow try to answer these investigation questions by experimenting:\n\n\nCode\n# Investigation 1: What happens with different keys?\nprint(\"INVESTIGATION 1: Different keys = different encryption\")\nprint(\"=\" * 80)\n\nmessage = \"Secret message\"\nkeys = [1, 3, 5, 13, 26]\n\nfor key in keys:\n    encrypted = caesar_encrypt(message, key)\n    print(f\"Key {key:2}: {message} → {encrypted}\")\n\nprint(\"\\nNotice: Different keys produce completely different encrypted messages!\")\n\n\nINVESTIGATION 1: Different keys = different encryption\n================================================================================\nKey  1: Secret message → Tfdsfu nfttbhf\nKey  3: Secret message → Vhfuhw phvvdjh\nKey  5: Secret message → Xjhwjy rjxxflj\nKey 13: Secret message → Frperg zrffntr\nKey 26: Secret message → Secret message\n\nNotice: Different keys produce completely different encrypted messages!\n\n\n\n\nCode\n# Investigation 2: Can we reverse it?\nprint(\"\\nINVESTIGATION 2: Encryption is reversible!\")\nprint(\"=\" * 80)\n\noriginal = \"Meet at three o clock\"\nkey = 7\n\nencrypted = caesar_encrypt(original, key)\ndecrypted = caesar_decrypt(encrypted, key)\n\nprint(f\"Original:  {original}\")\nprint(f\"Encrypted: {encrypted}\")\nprint(f\"Decrypted: {decrypted}\")\nprint(f\"\\n✅ Encryption CAN be reversed! This is different from hashing.\")\n\n\n\nINVESTIGATION 2: Encryption is reversible!\n================================================================================\nOriginal:  Meet at three o clock\nEncrypted: Tlla ha aoyll v jsvjr\nDecrypted: Meet at three o clock\n\n✅ Encryption CAN be reversed! This is different from hashing.\n\n\n\n\nCode\n# Investigation 3: What happens without the key?\nprint(\"\\nINVESTIGATION 3: Can Eve read the message without the key?\")\nprint(\"=\" * 80)\n\noriginal = \"The meeting is cancelled\"\ncorrect_key = 4\nwrong_key = 10  # Eve guesses the wrong key\n\nencrypted = caesar_encrypt(original, correct_key)\nwrong_decrypt = caesar_decrypt(encrypted, wrong_key)\ncorrect_decrypt = caesar_decrypt(encrypted, correct_key)\n\nprint(f\"Original message:     {original}\")\nprint(f\"Encrypted:            {encrypted}\")\nprint(f\"\\nEve's wrong key ({wrong_key}): {wrong_decrypt} ❌ Gibberish!\")\nprint(f\"Bob's correct key ({correct_key}): {correct_decrypt} ✅ Correct!\")\nprint(\"\\nNotice: Without the correct key, the message is unreadable!\")\n\n\n\nINVESTIGATION 3: Can Eve read the message without the key?\n================================================================================\nOriginal message:     The meeting is cancelled\nEncrypted:            Xli qiixmrk mw gergippih\n\nEve's wrong key (10): Nby gyyncha cm wuhwyffyx ❌ Gibberish!\nBob's correct key (4): The meeting is cancelled ✅ Correct!\n\nNotice: Without the correct key, the message is unreadable!\n\n\n\n\nCode\n# Investigation 4: Compare to hashing\nprint(\"\\nINVESTIGATION 4: Encryption vs Hashing\")\nprint(\"=\" * 80)\n\nimport hashlib\n\nmessage = \"secret\"\nencryption_key = 5\n\n# Encrypt it\nencrypted = caesar_encrypt(message, encryption_key)\ndecrypted = caesar_decrypt(encrypted, encryption_key)\n\n# Hash it\nhashed = hashlib.sha256(message.encode()).hexdigest()\n\nprint(f\"Original message: {message}\")\nprint(f\"\\nENCRYPTION (reversible):\")\nprint(f\"  Encrypted: {encrypted}\")\nprint(f\"  Decrypted: {decrypted} ✅ Can get original back!\")\nprint(f\"\\nHASHING (one-way only):\")\nprint(f\"  Hashed:    {hashed}\")\nprint(f\"  Reversed:  ❌ IMPOSSIBLE - can't get original back!\")\nprint(f\"\\nKey difference: Encryption = two-way, Hashing = one-way\")\n\n\n\nINVESTIGATION 4: Encryption vs Hashing\n================================================================================\nOriginal message: secret\n\nENCRYPTION (reversible):\n  Encrypted: xjhwjy\n  Decrypted: secret ✅ Can get original back!\n\nHASHING (one-way only):\n  Hashed:    2bb80d537b1da3e38bd30361aa855686bde0eacd7162fef6a25fe97bf527a25b\n  Reversed:  ❌ IMPOSSIBLE - can't get original back!\n\nKey difference: Encryption = two-way, Hashing = one-way",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#step-5-create-your-own-secret-messages",
+    "href": "encryption.html#step-5-create-your-own-secret-messages",
+    "title": "Encryption 🔐",
+    "section": "Step 5: Create your own secret messages!",
+    "text": "Step 5: Create your own secret messages!\nNow it’s your turn! Create encrypted messages and swap them with a partner.\n\n\nCode\n# Create your own encrypted messages\nprint(\"CREATE YOUR OWN SECRET MESSAGES\")\nprint(\"=\" * 80)\n\n# Choose a key (share it with your partner secretly!)\nmy_key = 8  # Change this to your chosen key\n\n# Write your messages here\nmy_messages = [\n    \"Your message here\",\n    \"Another secret message\",\n    \"One more message\"\n]\n\nprint(f\"Using key: {my_key}\\n\")\nprint(\"ENCRYPTED MESSAGES (send these to your partner):\")\nprint(\"-\" * 80)\n\nfor msg in my_messages:\n    encrypted = caesar_encrypt(msg, my_key)\n    print(f\"{encrypted}\")\n\nprint(\"\\n\" + \"-\" * 80)\nprint(\"Share the key and encrypted messages with your partner!\")\nprint(\"They should be able to decrypt them using the same key.\")\n\n\nCREATE YOUR OWN SECRET MESSAGES\n================================================================================\nUsing key: 8\n\nENCRYPTED MESSAGES (send these to your partner):\n--------------------------------------------------------------------------------\nGwcz umaaiom pmzm\nIvwbpmz amkzmb umaaiom\nWvm uwzm umaaiom\n\n--------------------------------------------------------------------------------\nShare the key and encrypted messages with your partner!\nThey should be able to decrypt them using the same key.",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#discussion-questions",
+    "href": "encryption.html#discussion-questions",
+    "title": "Encryption 🔐",
+    "section": "Discussion Questions",
+    "text": "Discussion Questions\nAfter completing the investigations, discuss these questions:\n\nTwo-way process: Why can encryption be reversed, but hashing cannot?\nThe key: Why is the key so important? What happens if someone intercepts your encrypted message but doesn’t have the key?\nKey security: If Eve steals your encrypted message, can she figure out the key by trying different numbers? (This is called a “brute force attack”)\nReal world: When would you use encryption instead of hashing? When would you use hashing instead of encryption?\nCaesar cipher weakness: The Caesar cipher is easy to break. Can you think of why? How do modern encryption methods protect against this?\nAlice and Bob: How does encryption help Alice and Bob communicate privately, even if Eve is listening?",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#key-takeaways",
+    "href": "encryption.html#key-takeaways",
+    "title": "Encryption 🔐",
+    "section": "Key Takeaways",
+    "text": "Key Takeaways\n✅ Encryption is two-way - You can encrypt AND decrypt messages\n✅ Keys are essential - You need the same key to encrypt and decrypt\n✅ Protects data in transit - Encryption keeps messages safe while being sent\n✅ Different from hashing - Encryption is reversible, hashing is one-way only\n✅ Both are important - Encryption and hashing solve different security problems\n✅ Without the key = gibberish - Encrypted messages are useless without the correct key",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption.html#optional-stretch-activities",
+    "href": "encryption.html#optional-stretch-activities",
+    "title": "Encryption 🔐",
+    "section": "Optional Stretch Activities 🌟",
+    "text": "Optional Stretch Activities 🌟\n\nChallenge 1: Brute force attack\nTry to break an encrypted message by testing all possible keys (0-25). How long does it take? Why is this a weakness of the Caesar cipher?\n\n\nChallenge 2: Frequency analysis\nResearch “frequency analysis” - a method used to break Caesar ciphers. The letter ‘E’ is the most common in English. Can you use this to crack a message?\n\n\nChallenge 3: Create a better cipher\nDesign your own encryption method. Can you make it harder to break than the Caesar cipher?\n\n\nChallenge 4: Encryption vs Hashing comparison\nCreate a table comparing encryption and hashing. Include: - When each is used - Whether they can be reversed - Whether they need a key - Real-world examples of each\n\n\nChallenge 5: Research modern encryption\nLook up “AES encryption” or “RSA encryption”. How are these different from the Caesar cipher? Why are they more secure?\n\n\nChallenge 6: Key exchange problem\nAlice and Bob need to share a key to encrypt messages. But how do they share the key securely if Eve is listening? Research “Diffie-Hellman key exchange” to find out!",
+    "crumbs": [
+      "Encryption 🔐"
+    ]
+  },
+  {
+    "objectID": "encryption_vs_hashing.html",
+    "href": "encryption_vs_hashing.html",
+    "title": "Encryption vs Hashing",
+    "section": "",
+    "text": "The art of cracking codes\n\n\n\nTLDR; (too long didn’t read)\n\nEncryption = lock & unlock 🔐 | Hashing = lock only 🔒\nEncryption can be reversed. Hashing cannot.\nBoth are usefule in different circumstances to protect your data e.g. your money!\n\n\n\nBackground Information\nAlan Turning, pressured into hacking the encrypted messages of the German Enigma machine during World War 2, developed what we consider to be the foundation of modern day computers. We call this a Turning Machine. I guess you could call Turning a famous hacker! but he was also a Cambridge professor of mathematics.\n\n\nWhy is it useful today?\n\nTo keep your online data safe (e.g. YOUR MONEY!) your bank will use Encryption and Hashing to protect your money.\nTo secure your online activity e.g. The paddlock(🔒) in your browser signifies your connection is encrypted.\n\n\n\nPractical - Simple Book based Encryption\nBook Cipher Encryption\n\n\nPractical - Hashing\nPassword Hashing\n\n\nPractical - Encryption\nEncryption",
+    "crumbs": [
+      "Encryption vs Hashing"
+    ]
+  }
+]
